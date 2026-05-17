@@ -41,22 +41,7 @@ A complete Node.js guide project featuring Express, MongoDB, authentication, fil
    ```bash
    npm install
    ```
-
-3. **Configure environment variables**
-
-   Create a `.env` file in the project root based on the example below:
-
-   ```env
-   MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.example.mongodb.net/shop?appName=Cluster0
-   SESSION_SECRET=your_super_secret_string
-   SENDGRID_API_KEY=your_sendgrid_api_key
-   EMAIL_FROM=your_email@example.com
-   STRIPE_KEY=your_stripe_secret_key
-   ```
-
-   > **Important:** Never commit your `.env` file. It is already ignored by `.gitignore`.
-
-4. **Start the development server**
+3. **Start the development server**
 
    ```bash
    npm run start
